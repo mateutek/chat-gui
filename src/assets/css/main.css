@@ -1,0 +1,17 @@
+:root {
+    --header-height: 50px;
+    --footer-height: 32px;
+}
+
+
+* {
+    box-sizing: border-box;
+}
+
+#__nuxt, .n-config-provider {
+    min-height: 100vh;
+    max-height: 100vh;
+    min-width: 100vw;
+    max-width: 100vw;
+    overflow: hidden;
+}
